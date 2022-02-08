@@ -1,23 +1,52 @@
-header{
-    background: #CFCFCF;
-    height: 100px;
-}
-.logo{
-    position: absolute;
-    left: 285px;
-    top: 32px;
-}
-.m-w{
-    max-width: 1680px;
-    max-height: 945px;
+.mw{
+    max-width: 1110px;
     margin: auto;
 }
+
+.my-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+.my-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-li{
+    margin-right: 23px;
+}
+
+.my-logo{
+    display: flex;
+    margin-top: 23px;
+}
+
+.my-a{
+    text-decoration: none;
+}
+
+.logo-space{
+    margin-right: 22px;
+}
+
+.my-ul{
+    display: flex;
+    margin-top: 24px;
+}
+
+.ul-padding{
+    padding-left: 0;
+}
+
 .year{
-    position: absolute;
     width: 193px;
     height: 43px;
-    left: 391px;
-    top: 32px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -25,11 +54,8 @@ header{
     color: #FFFFFF;
 }
 .tel {
-    position: absolute;
     width: 204px;
-    left: 1073px;
-    top: 32px;
-    padding: 7px 27px 7px 45px;
+    padding: 7px 27px 7px 33px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -38,80 +64,65 @@ header{
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 15px;
-    margin-right: 23px;
+}
+.fb{
+    width: 36px;
+    height: 36px;
 }
 
-.fb{
-    position: absolute;
-    width: 36px;
-    height: 36px;
-    left: 1300px;
-    top: 32px;
-    margin-right: 23px;
-}
 .inst{
-    position: absolute;
     width: 36px;
     height: 36px;
-    left: 1359px;
-    top: 32px;
 }
+
 h1{
-    position: absolute;
-    margin-top: 301px;
-    margin-left: 47px;
+    margin-top: 269px;
     width: 493px;
     height: 80px;
     font-size: 45px;
     line-height: 100%;
     color: #181818;
 }
+
 h2{
-    position: absolute;
     width: 400px;
     height: 22px;
-    margin-left: 47px;
-    margin-top: 406px;
-    padding-top: 25px;
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
     line-height: 29px;
     color: #181818;
 }
-.static{
+
+ul li{
     list-style-type: none;
     margin: auto;
+    display: inline-block;
 }
+
 .portfolio{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
     color: #181818;
-    padding: 19px 47px;
+    padding: 23px 47px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: absolute;
-    left: 47px;
-    top: 483px;
+    margin-top: 65px;
     background: #FFFFFF;
     border-radius: 40px;
 }
+
 .statement{
-    padding: 19px 47px;
+    padding: 23px 47px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
     color: #181818;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: absolute;
-    left: 253px;
-    top: 483px;
+    margin-left: 20px;
+    margin-top: 65px;
     background: #FFFFFF;
     border-radius: 40px;
 }
