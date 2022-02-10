@@ -1,16 +1,19 @@
+header{
+    background: #CDCDCD;
+}
 .mw{
     max-width: 1110px;
     margin: auto;
 }
 
 .my-section{
-    background-repeat: no-repeat;
+    background-image: url('../logos/milk_bottle.png');
     background-size: cover;
-    min-width: 100%;
-    min-height: 100%;
-    position: fixed;
-    top: 0;
-    left:0;
+    padding-top: 269px;
+    padding-bottom: 309px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .my-nav{
@@ -125,4 +128,29 @@ ul li{
     margin-top: 65px;
     background: #FFFFFF;
     border-radius: 40px;
+
+}
+.company-style{
+    /*font-family: 20 Kopeek Book;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 110%;
+    margin-top: 70px;
+    padding-bottom: 15px;
+}
+.paragraph{
+    /*font-family: 20 Kopeek;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+}
+.fruits{
+    max-width: 635px;
+    width: 100%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 141px;
 }
