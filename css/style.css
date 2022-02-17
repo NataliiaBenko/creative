@@ -447,7 +447,8 @@ ul li{
 }
 .icons{
     flex-direction: column;
-    /*padding-bottom: 71px;*/
+    padding-right: 97px;
+
 }
 .under-icon{
     font-family: '20 Kopeek';
@@ -459,8 +460,8 @@ ul li{
     align-items: flex-end;
     color: #181818;
 }
-.lamp{
-   padding: 85px 0 23px 0;
+.lamp {
+   padding-bottom: 23px;
 }
 .deep{
     padding-bottom: 71px;
@@ -469,8 +470,72 @@ ul li{
     padding-bottom: 23px;
 }
 .development{
-    padding-bottom: 184px;
+    padding-bottom: 103px;
 }
 .book{
     padding-bottom: 23px;
+}
+.columns{
+    flex-direction: column;
+    padding-right: 30px;
+}
+.top{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+    padding-bottom: 15px;
+}
+.under-top-first{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #181818;
+    padding-bottom: 79px;
+}
+.under-top-second{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #181818;
+    padding-bottom: 116px;
+}
+.under-top-third{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #181818;
+}
+.under-top-fourth{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #181818;
+    padding-bottom: 60px;
+}
+.under-top-fifth{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #181818;
+    padding-bottom: 60px;
+}
+.under-top-sixth{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #181818;
 }
