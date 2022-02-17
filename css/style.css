@@ -416,7 +416,7 @@ ul li{
     padding: 23px 149px 23px 29px;
     margin-left: 30px;
 }
-.knopka{
+.btn{
     font-family: '20 Kopeek';
     font-style: normal;
     font-weight: normal;
@@ -435,6 +435,42 @@ ul li{
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    margin-bottom: 30px;
+    margin-bottom: 150px;
 }
-
+.stadies{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 100%;
+    color: #181818;
+}
+.icons{
+    flex-direction: column;
+    /*padding-bottom: 71px;*/
+}
+.under-icon{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    display: flex;
+    align-items: flex-end;
+    color: #181818;
+}
+.lamp{
+   padding: 85px 0 23px 0;
+}
+.deep{
+    padding-bottom: 71px;
+}
+.letter{
+    padding-bottom: 23px;
+}
+.development{
+    padding-bottom: 184px;
+}
+.book{
+    padding-bottom: 23px;
+}
