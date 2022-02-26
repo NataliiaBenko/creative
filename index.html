@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="media-queries.css">
 </head>
 <body>
 <header>
@@ -171,13 +172,13 @@
     <form>
         <label style="display: flex; flex-direction: row;">
             <input class="your-name name-ext" name="your_name" type="text" id="your_name" placeholder="Ваше Имя">
-            <input class="your-name phone" name="phone_number" type="text" id="phone_number" placeholder="+7 (999) 999-99-99">
+            <input class="your-name phone" name="phone_number" type="tel" id="phone_number" placeholder="+7 (999) 999-99-99">
             <button class="btn">Оставить заявку</button>
         </label>
     </form>
         <form class="checkbox">
             <input type="checkbox" id="i_accept" name="i_accept" value="private">
-            <label for="i_accept">Я принимаю <a href="#">условия передачи персональных данных</a> </label><br>
+            <label for="i_accept">Я принимаю <a href="#">условия передачи персональных данных</a> </label>
     </form>
 </section>
 <section class="mw">
@@ -231,11 +232,35 @@
             <p class="d-t">Мы гарантируем, что<br> любая разработка <br>проходит проверку <br>на оригинальность, <br>вы получайте<br> действительно<br> уникальный продукт</p>
             <p class="dg">5</p>
             <p class="d-t">Мы имеем опыт работы <br>с малым, средним и<br> крупным бизнесом, а<br> также с<br> международными<br> корпорациями Наша<br> репутация - это 9-ть<br> лет успешной работы.<br> 8-мь из 10-ти<br> клиентов после<br> совместной разработки<br> фирменного стиля<br> обращаются к нам<br> повторно: за<br> созданием сайта,<br> контента для<br> социальных сетей или<br> по любой другой<br> задаче.</p>
-
         </div>
-
+    </div>
+</section>
+<section>
+    <div class="contacts_block  mw">
+        <div class="d-flex-column">
+            <h6 class="connect_with_us">Связаться с нами</h6>
+            <form>
+                <label>
+                    <input class="f_name " name="full_name" type="text" id="f-name" placeholder="Ваше Имя">
+                    <input class="some_phone" name="phone_number" type="tel" id="tel-tel" placeholder="+7 (999) 999-99-99">
+                </label>
+            </form>
+            <form class="checkbox_two">
+                <input type="checkbox" id="i_accept_two" name="i_accept" value="private">
+                <label for="i_accept">Я принимаю <a href="#">условия передачи персональных данных</a></label>
+            </form>
+            <form>
+                <button class="btn_two">Оставить заявку</button>
+            </form>
+        </div>
+    <div class="d-flex_column">
+       <h6 class="connect_with_us">Контакты</h6>
+        <p class="p_number">8 (495) 156-39-11</p>
+        <p class="address">brand@free-creative.com</p>
+        <p class="address">Москва, Садовническая улица 69</p>
     </div>
 
+    </div>
 </section>
 </body>
 </html>

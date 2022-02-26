@@ -428,6 +428,8 @@ ul li{
     margin-left: 30px;
     width: 228px;
     height: 71px;
+    /*padding: 23px 47px;*/
+    border: none;
 }
 .checkbox{
     font-family: '20 Kopeek';
@@ -608,3 +610,76 @@ ul li{
     padding-top: 65px;
     padding-right: 28px;
 }
+.contacts_block{
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.connect_with_us{
+    padding-top: 150px;
+    padding-bottom: 30px;
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 110%;
+    color: #181818;
+}
+.f_name{
+    border: 1px solid #181818;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 23px 244px 23px 29px;
+    margin-bottom: 10px;
+}
+.some_phone{
+    border: 1px solid #181818;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 23px 244px 23px 29px;
+    display: block;
+    margin-bottom: 21px;
+}
+.checkbox_two{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 48px;
+}
+.btn_two{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #2B59C3;
+    border-radius: 40px;
+    padding: 23px 47px;
+    border: none;
+}
+.p_number{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    color: #181818;
+    padding-bottom: 15px;
+}
+.address{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    color: #181818;
+    padding-bottom: 15px;
+}
+
+
