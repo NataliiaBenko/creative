@@ -426,10 +426,14 @@ ul li{
     background: #2B59C3;
     border-radius: 40px;
     margin-left: 30px;
-    width: 228px;
-    height: 71px;
-    /*padding: 23px 47px;*/
+    /*width: 228px;*/
+    max-height: 71px;
+    padding: 23px 47px;
     border: none;
+}
+.btn:hover{
+    background: darkblue;
+    color: #ffe;
 }
 .checkbox{
     font-family: '20 Kopeek';
@@ -438,6 +442,9 @@ ul li{
     font-size: 16px;
     line-height: 140%;
     margin-bottom: 150px;
+}
+form label a:hover{
+    color: deepskyblue;
 }
 .stadies{
     font-family: '20 Kopeek';
@@ -628,6 +635,14 @@ ul li{
     line-height: 110%;
     color: #181818;
 }
+::placeholder{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #868686;
+}
 .f_name{
     border: 1px solid #181818;
     box-sizing: border-box;
@@ -662,6 +677,11 @@ ul li{
     border-radius: 40px;
     padding: 23px 47px;
     border: none;
+    margin-bottom: 127px;
+}
+.btn_two:hover{
+    background: darkblue;
+    color: #ffe;
 }
 .p_number{
     font-family: '20 Kopeek';
@@ -681,5 +701,42 @@ ul li{
     color: #181818;
     padding-bottom: 15px;
 }
+.smi{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 110%;
+    color: #181818;
+    padding-bottom: 14px;
+}
+.d-flex_last{
+    display: flex;
+}
+.background_blue{
+    background: #2B59C3;
+    border-radius: 10px;
+    padding: 6px 80px 16px 13px;
+}
+.link_last{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    /*padding-bottom: 25px;*/
+}
+.little_link{
+    display: block;
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+
 
 

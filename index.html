@@ -169,16 +169,18 @@
     </div>
     <h4 class="head-under-form">Оставьте заявку на разработку вашего продукта</h4>
     <p class="call">Наши эксперты свяжутся с вами в ближайшее время</p>
-    <form>
-        <label style="display: flex; flex-direction: row;">
-            <input class="your-name name-ext" name="your_name" type="text" id="your_name" placeholder="Ваше Имя">
-            <input class="your-name phone" name="phone_number" type="tel" id="phone_number" placeholder="+7 (999) 999-99-99">
-            <button class="btn">Оставить заявку</button>
+    <form name="search" action="" method="post" target="_blank" style="display: flex;">
+        <label for="your_name">
+            <input class="your-name name-ext" name="your_name" type="text" placeholder="Ваше Имя" id="your_name">
         </label>
+        <label for="phone_number">
+            <input class="your-name phone" name="phone_number" type="tel"  placeholder="+7 (999) 999-99-99" id="phone_number">
+        </label>
+        <button class="btn" type="submit">Оставить заявку</button>
     </form>
         <form class="checkbox">
             <input type="checkbox" id="i_accept" name="i_accept" value="private">
-            <label for="i_accept">Я принимаю <a href="#">условия передачи персональных данных</a> </label>
+            <label for="i_accept">Я принимаю <a href="#">условия передачи персональных данных</a></label>
     </form>
 </section>
 <section class="mw">
@@ -235,22 +237,24 @@
         </div>
     </div>
 </section>
-<section>
+<footer>
     <div class="contacts_block  mw">
         <div class="d-flex-column">
             <h6 class="connect_with_us">Связаться с нами</h6>
-            <form>
-                <label>
-                    <input class="f_name " name="full_name" type="text" id="f-name" placeholder="Ваше Имя">
-                    <input class="some_phone" name="phone_number" type="tel" id="tel-tel" placeholder="+7 (999) 999-99-99">
+            <form name="search" action="" method="post" target="_blank">
+                <label for="f-name">
+                    <input class="f_name " name="full_name" type="text" id="f-name" placeholder="Ваше Имя" id="f-name">
                 </label>
+                   <label for="s_phone">
+                       <input class="some_phone" name="phone_number" type="tel" placeholder="+7 (999) 999-99-99" id="s_phone">
+                   </label>
             </form>
             <form class="checkbox_two">
-                <input type="checkbox" id="i_accept_two" name="i_accept" value="private">
-                <label for="i_accept">Я принимаю <a href="#">условия передачи персональных данных</a></label>
+                <input type="checkbox" id="i_accept_two" name="i_accept_two" value="private">
+                <label for="i_accept_two">Я принимаю <a href="#">условия передачи персональных данных</a></label>
             </form>
             <form>
-                <button class="btn_two">Оставить заявку</button>
+                <button class="btn_two" type="submit">Оставить заявку</button>
             </form>
         </div>
     <div class="d-flex_column">
@@ -259,8 +263,19 @@
         <p class="address">brand@free-creative.com</p>
         <p class="address">Москва, Садовническая улица 69</p>
     </div>
+    </div>
+    <div class="mw">
+        <h6 class="smi">Мы в СМИ</h6>
+        <div class="d-flex_last">
+            <div class="background_blue">
+               <a class="link_last" href="#">История агентства<br> FREE.creative</a>
+                <a class="little_link" href="#">vc.ru</a>
+            </div>
+
+        </div>
+
 
     </div>
-</section>
+</footer>
 </body>
 </html>
