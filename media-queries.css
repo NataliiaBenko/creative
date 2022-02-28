@@ -1,21 +1,18 @@
-@media only screen and (max-width: 1024px) {
 
-}
-@media only screen and (max-width: 992px) {
-
-}
-@media only screen and (max-width: 767px) {
-
-}
-@media only screen and (max-width: 420px) {
-
-}
-@media only screen and (max-width: 375px) {
-
-}
-@media only screen and (max-width: 360px) {
-
-}
-@media only screen and (max-width: 320px) {
-
+@media only screen and (max-width: 768px) {
+   .my-ul{
+       display: none;
+   }
+    .my-logo{
+        margin-left: 36px;
+    }
+    .my-section{
+     background-image: url("../logos/image_media.jpg");
+    }
+    h1{
+        color: #FFFFFF;
+    }
+    .offer{
+        color: #FFFFFF;
+    }
 }
