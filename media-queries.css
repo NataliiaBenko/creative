@@ -32,4 +32,40 @@
     .statement{
         margin-left: 36px;
     }
+    .margin_l{
+        margin-left: 36px;
+    }
+    .wrap-media{
+      flex-wrap: wrap;
+    }
+    .fruits{
+        margin-top: 15px;
+        margin-bottom: 30px;
+        width: 75%;
+    }
+    .prgrph{
+        margin-right: 200px;
+    }
+    .numbers-list{
+        flex-wrap: wrap;
+    }
+    .digit{
+        margin-top: 42px;
+    }
+    .m_font{
+        padding-top: 24px;
+    }
+    .lifecare-container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 36px;
+    }
+    .picture{
+        padding-bottom: 25px;
+    }
+    .left-paragraph{
+        margin-bottom: 150px;
+    }
+    br {content: ""}
+    br:after {content: "\00a0"}
 }

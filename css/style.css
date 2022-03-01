@@ -236,6 +236,9 @@ ul li{
     font-family: '20 Kopeek';
     padding-right: 90px;
 }
+.m_font{
+    margin-top: 65px;
+}
 .five {
     display: flex;
     font-size: 18px;
@@ -275,7 +278,6 @@ ul li{
     margin-top: 40px;
 }
 .picture{
-    max-width: 634px;
     width: 100%;
     float: right;
     clear: both;
