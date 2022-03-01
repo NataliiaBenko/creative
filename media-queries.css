@@ -1,5 +1,6 @@
 
 @media only screen and (max-width: 768px) {
+
    .my-ul{
        display: none;
    }
@@ -10,9 +11,25 @@
      background-image: url("../logos/image_media.jpg");
     }
     h1{
+        margin-top: 70px;
+        margin-left: 36px;
         color: #FFFFFF;
     }
     .offer{
         color: #FFFFFF;
+        margin-left: 36px;
+    }
+    .ul-padding
+    {
+        display: inline-grid;
+
+    }
+    .portfolio{
+        padding-right: 83px;
+        margin-left: 36px;
+
+    }
+    .statement{
+        margin-left: 36px;
     }
 }
