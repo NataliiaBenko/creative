@@ -66,6 +66,12 @@
     .left-paragraph{
         margin-bottom: 150px;
     }
-    br {content: ""}
-    br:after {content: "\00a0"}
-}
+    /*.br_to_remove{}*/
+
+     .br_to_remove {content: ""}
+     .br_to_remove:after {content: "\00a0"}
+        .width{
+          width: 100%;
+        }
+    }
+
