@@ -154,9 +154,14 @@
         <a href="#" class="show">Показать еще</a>
     </div>
     <h4 class="gaidlines">Гайдлайны в подарок</h4>
-    <div style="display: flex; padding-bottom: 70px">
+    <div class="orange" style="display: flex; padding-bottom: 70px">
         <div>
-            <img src="logos/dislife.jpg" alt="dislife">
+           <picture>
+               <source srcset="logos/guideline.png" media="(max-width: 768px)">
+               <source srcset="logos/guideline.png" media="(max-width: 576px)">
+               <source srcset="logos/guideline.png" media="(max-width: 360px)">
+               <img src="logos/dislife.jpg" alt="dislife">
+           </picture>
         </div>
         <div class="guidline-details">
             <div class="colors">
@@ -170,7 +175,7 @@
     </div>
     <h4 class="head-under-form">Оставьте заявку на разработку вашего продукта</h4>
     <p class="call">Наши эксперты свяжутся с вами в ближайшее время</p>
-    <form name="search" action="" method="post" target="_blank" style="display: flex;">
+    <form class="media_f" name="search" action="" method="post" target="_blank" style="display: flex;">
         <label for="your_name">
             <input class="your-name name-ext" name="your_name" type="text" placeholder="Ваше Имя" id="your_name">
         </label>

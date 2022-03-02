@@ -66,12 +66,50 @@
     .left-paragraph{
         margin-bottom: 150px;
     }
-    /*.br_to_remove{}*/
-
      .br_to_remove {content: ""}
      .br_to_remove:after {content: "\00a0"}
         .width{
           width: 100%;
         }
+        .orange{
+         flex-wrap: wrap;
+        }
+        .text-part-normal-with-padding br{content: ""}
+        .text-part-normal-with-padding br:after {content: "\00a0"}
+        .text-part-bold br{content: ""}
+        .text-part-bold br:after {content: "\00a0"}
+
+    picture img{
+            padding-bottom: 26px;
+        }
+    .guidline-details{
+        margin-left: 0;
+        width: 70%;
+        }
+    .text-part-bold{
+        padding-top: 23px;
+    }
+    .media_f{
+       flex-wrap: wrap-reverse;
+    }
+    .head-under-form{
+        margin-left: 36px;
+    }
+    .call{
+        margin-left: 36px;
+    }
+    form{
+        margin-left: 36px;
+    }
+    .phone{
+        padding: 18px 276px 20px 21px;
+        margin-left: 0;
+    }
+    .your-name{
+        padding: 18px 355px 20px 21px;
+    }
+    .btn{
+        order: -1;
+    }
     }
 
