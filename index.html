@@ -6,10 +6,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="media-queries.css">
 </head>
 <body>
+<div class="owl-carousel">
+
+</div>
 <header>
     <div class="mw">
         <nav class="my-nav">
@@ -36,7 +41,8 @@
         </nav>
     </div>
 </header>
-<section class="my-section">
+<section class="owl-carousel">
+<div class="my-section">
     <div class="mw" style="overflow: hidden">
         <h1>Вам нужен фирменный <br>стиль или ребрендинг?</h1>
         <h2 class="offer">Разработаем в срок от 10-ти дней</h2>
@@ -44,6 +50,37 @@
             <li><a href="#" class="portfolio my-a">Портфолио</a></li>
             <li><a href="#" class="statement my-a">Оставить заявку</a></li>
         </ul>
+    </div>
+</div>
+    <div class="my-section item_2">
+        <div class="mw" style="overflow: hidden">
+            <h1>Вам нужен фирменный <br>стиль или ребрендинг?</h1>
+            <h2 class="offer">Разработаем в срок от 10-ти дней</h2>
+            <ul class="ul-padding">
+                <li><a href="#" class="portfolio my-a">Портфолио</a></li>
+                <li><a href="#" class="statement my-a">Оставить заявку</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="my-section item_3">
+        <div class="mw" style="overflow: hidden">
+            <h1>Вам нужен фирменный <br>стиль или ребрендинг?</h1>
+            <h2 class="offer">Разработаем в срок от 10-ти дней</h2>
+            <ul class="ul-padding">
+                <li><a href="#" class="portfolio my-a">Портфолио</a></li>
+                <li><a href="#" class="statement my-a">Оставить заявку</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="my-section item_4">
+        <div class="mw" style="overflow: hidden">
+            <h1>Вам нужен фирменный <br>стиль или ребрендинг?</h1>
+            <h2 class="offer">Разработаем в срок от 10-ти дней</h2>
+            <ul class="ul-padding">
+                <li><a href="#" class="portfolio my-a">Портфолио</a></li>
+                <li><a href="#" class="statement my-a">Оставить заявку</a></li>
+            </ul>
+        </div>
     </div>
 </section>
 <section>
@@ -175,23 +212,25 @@
     </div>
     <h4 class="head-under-form">Оставьте заявку на разработку вашего продукта</h4>
     <p class="call">Наши эксперты свяжутся с вами в ближайшее время</p>
-    <form class="media_f" name="search" action="" method="post" target="_blank" style="display: flex;">
-        <label for="your_name">
-            <input class="your-name name-ext" name="your_name" type="text" placeholder="Ваше Имя" id="your_name">
-        </label>
-        <label for="phone_number">
-            <input class="your-name phone" name="phone_number" type="tel"  placeholder="+7 (999) 999-99-99" id="phone_number">
-        </label>
-        <button class="btn" type="submit">Оставить заявку</button>
-    </form>
-        <form class="checkbox">
+    <div>
+        <form class="media_f" name="search" action="" method="post" target="_blank" style="display: flex;">
+            <label for="your_name">
+                <input class="your-name name-ext" name="your_name" type="text" placeholder="Ваше Имя" id="your_name">
+            </label>
+            <label for="phone_number">
+                <input class="your-name phone" name="phone_number" type="tel"  placeholder="+7 (999) 999-99-99" id="phone_number">
+            </label>
+            <button class="btn" type="submit">Оставить заявку</button>
+        <div class="checkbox">
             <input type="checkbox" id="i_accept" name="i_accept" value="private">
             <label for="i_accept">Я принимаю <a href="#">условия передачи персональных данных</a></label>
-    </form>
+        </div>
+        </form>
+    </div>
 </section>
-<section class="mw">
-    <h4 class="stadies">Этапы создания <br>фирменного стиля <br>и гайдлайна</h4>
-    <div style="padding-top: 83px; padding-bottom: 150px; display: flex">
+<section class="mw margin_l">
+    <h4 class="stages">Этапы создания <br>фирменного стиля <br>и гайдлайна</h4>
+    <div class="stages-container">
         <div class="icons">
            <img class="lamp" src="logos/Lamp.png" alt="lamp">
             <p class="under-icon deep">Погружение <br>в креативный поиск</p>
@@ -294,5 +333,11 @@
 
     </div>
 </footer>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>

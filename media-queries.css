@@ -58,7 +58,7 @@
     .lifecare-container{
         display: flex;
         flex-direction: column-reverse;
-        margin-left: 36px;
+        /*margin-left: 36px;*/
     }
     .picture{
         padding-bottom: 25px;
@@ -92,15 +92,6 @@
     .media_f{
        flex-wrap: wrap-reverse;
     }
-    .head-under-form{
-        margin-left: 36px;
-    }
-    .call{
-        margin-left: 36px;
-    }
-    form{
-        margin-left: 36px;
-    }
     .phone{
         padding: 18px 276px 20px 21px;
         margin-left: 0;
@@ -110,6 +101,11 @@
     }
     .btn{
         order: -1;
+        margin-bottom: 30px;
     }
+    .stages-container{
+        flex-wrap: wrap;
+    }
+
     }
 

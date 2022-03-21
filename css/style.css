@@ -32,6 +32,15 @@ header{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.my-section.item_2{
+    background-image: url('../logos/01_2.jpg');
+}
+.my-section.item_3{
+    background-image: url('../logos/01_3.jpg');
+}
+.my-section.item_4{
+    background-image: url('../logos/01_4.jpg');
+}
 
 .my-nav{
     display: flex;
@@ -448,13 +457,18 @@ ul li{
 form label a:hover{
     color: deepskyblue;
 }
-.stadies{
+.stages{
     font-family: '20 Kopeek';
     font-style: normal;
     font-weight: normal;
     font-size: 55px;
     line-height: 100%;
     color: #181818;
+}
+.stages-container{
+    padding-top: 83px;
+    padding-bottom: 150px;
+    display: flex;
 }
 .icons{
     flex-direction: column;
