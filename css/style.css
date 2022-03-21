@@ -817,5 +817,29 @@ h1{
         width: 100%;
     }
 }
+.owl-dots{
+    bottom: 100px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.owl-dots .owl-dot{
+    display: inline-block;
+    margin: 0 7px;
+}
+.owl-dots .owl-dot span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #181818;
+    position: relative;
+}
+.owl-dots .owl-dot.active span{
+    width: 15px;
+    height: 15px;
+    bottom: -2px;
+}
+
 
 

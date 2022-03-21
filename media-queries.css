@@ -106,6 +106,29 @@
     .stages-container{
         flex-wrap: wrap;
     }
-
+    .digits-bl-one{
+        flex-wrap: wrap;
+    }
+    .dg{
+        margin-top: 42px;
+    }
+    .contacts_block{
+        flex-wrap: wrap;
+    }
+    .t{
+        padding-top: 32px;
+    }
+    .m{
+        margin-top: 119px;
+    }
+    .p{
+        padding-top: 10px;
+    }
+    .smi{
+        padding-top: 120px;
+    }
+    .f-w{
+        flex-wrap: wrap;
+    }
     }
 
